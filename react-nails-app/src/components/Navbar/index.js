@@ -9,7 +9,14 @@ const index = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>BLOSSOM</NavLogo>
-                    <h1>Hey</h1>
+                    <MobileIcon>
+                        <FaBars/>
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="about">About</NavLinks>
+                        </NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
         </>
