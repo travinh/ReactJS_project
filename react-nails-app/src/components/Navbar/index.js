@@ -8,7 +8,6 @@ const index = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo>BLOSSOM</NavLogo>
-
                 </NavbarContainer>
             </Nav>
         </>
