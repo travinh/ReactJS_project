@@ -1,10 +1,13 @@
 
 import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+//if don't have index.js in Navbar, then specify the file after /Navbar
 
 function App() {
   return (
     <div className="App">
-      <h1>Whats up</h1>
+        <Navbar></Navbar>
     </div>
   );
 }
