@@ -1,5 +1,7 @@
 import React from 'react'
-import {SidebarContainer, Icon, CloseIcon} from './SidebarElements'
+import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarRoute, SidebarLink, SideBtnWrap} from './SidebarElements'
+
+
 
 const Sidebar = () => {
     return (
@@ -9,10 +11,22 @@ const Sidebar = () => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink>
-                        
+                    <SidebarLink to="about">
+                        About
+                    </SidebarLink>
+                    <SidebarLink to="discover">
+                        Discover
+                    </SidebarLink>
+                    <SidebarLink to="services">
+                        Services
+                    </SidebarLink>
+                    <SidebarLink to="signup">
+                        Signup
                     </SidebarLink>
                 </SidebarMenu>
+                <SideBtnWrap>
+                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )
