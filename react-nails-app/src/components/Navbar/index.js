@@ -5,13 +5,13 @@ import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 
 
-const index = () => {
+const NavBar = ({ toggle }) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>BLOSSOM</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars/>
                     </MobileIcon>
                     <NavMenu>
@@ -38,4 +38,4 @@ const index = () => {
     )
 }
 
-export default index
+export default NavBar
