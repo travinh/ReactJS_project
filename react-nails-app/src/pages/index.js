@@ -5,14 +5,13 @@ import HeroSection from '../components/HeroSection'
 
 const Home = () => {
 
-    // const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
-    // const toggle = () =>{
-    //     setIsOpen(!isOpen)
-    //     console.log(isOpen)
-    // };
+    const toggle = () =>{
+        setIsOpen(!isOpen)
+        console.log(isOpen)
+    };
 
-    //we need to add  const [isOpen, setIsOpen] = useState(false)
 
     return (
         <>
